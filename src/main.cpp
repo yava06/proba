@@ -49,17 +49,18 @@ int main() {
     c = getchar();
     switch (c) {
     case '1':
-    table();
+      table();
       break;
     // case '2':print(tf);break;
     // case '3':app(tf);break;
     case '4':
       dev();
       break;
-    // case '0':return 0;
+    case '0':
+      return 0;
     default:
       puts(" íåâåðíûé ðåæèì");
     }
-    return 0;
   }
+  return 0;
 }
